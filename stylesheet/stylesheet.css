@@ -1,12 +1,11 @@
 li{
-    list-style: none;
-    
+    list-style: none;  
 }
 
 .header{
     background-color: #794e8cb4;  
     color: rgb(113, 21, 111);
-    height: 90px;
+    height: 70px;
 }
 
 .header-logo{
@@ -23,7 +22,7 @@ li{
 .main{
     background-color: #cd89af;
     color: rgb(103, 29, 67);
-    padding: 100px 80px;
+    padding: 90px 70px;
 }
 
 .copy-container h1{
@@ -34,10 +33,6 @@ li{
     font-size: 60px;
 }
 
-.copy-container span{
-    color: red;
-}
-
 .contents {
     height: 500px;
     margin-top: 100px;
@@ -45,20 +40,26 @@ li{
   
   .section-title {
     background-color: #cd89af;
-    border-bottom: 2px solid #dee7ec;
-    font-size: 28px;
+    color: #cc3580;
+    border-bottom: 5px solid #9b1f82;
+    font-size: 30px;
     padding-bottom: 15px;
     margin-bottom: 50px;
   }
   
   .contents-item {
     float: left;
-    margin-right: 40px;
+    border-width: 200px;
+    border: 5px solid #9b1f82;
+    margin-right: 50px;
+    margin-left: 40px;
   }
   
   .contents-item p {
-    font-size: 24px;
+    color: rgb(103, 29, 67);
+    font-size: 30px;
     margin-top: 30px;
+    margin-left: 30px;
   }
   
   .contact-form {
@@ -71,19 +72,19 @@ li{
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 20px;
-    font-size: 18px;
-    border: 1px solid #dee7ec;
+    font-size: 20px;
+    border: 5px solid #9b1f82;
   }
   .contact-submit {
-    background :#dee7ec ;
-    color: #889eab;
+    background :#8b4879 ;
+    color: #931862;
   }
 
 .footer{
     background-color: #794e8cb4;
     color: rgb(115, 39, 129);
-    height: 120px;
-    padding: 40px;
+    height: 100px;
+    padding: 30px;
 }
 
 .footer-logo{
